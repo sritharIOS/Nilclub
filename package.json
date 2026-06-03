@@ -1,0 +1,19 @@
+{
+  "name": "nilclub",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "db:push": "turbo db:push --filter=@nilclub/database",
+    "db:seed": "turbo db:seed --filter=@nilclub/database"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "typescript": "^5.0.0"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=20"
+  }
+}
